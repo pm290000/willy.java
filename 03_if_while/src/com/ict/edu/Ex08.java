@@ -2,8 +2,8 @@ package com.ict.edu;
 
 public class Ex08 {
 	public static void main(String[] args) {
-		//ÁßÃ¸  while¹®  : while  ¹® ¾È¿¡ while ¹®
-				//			´ÙÁß for¹®°ú °°´Ù.
+		//ì¤‘ì²©  whileë¬¸  : while  ë¬¸ ì•ˆì— while ë¬¸
+				//			ë‹¤ì¤‘ forë¬¸ê³¼ ê°™ë‹¤.
 			for (int i = 1; i < 4; i++) {
 				for (int j = 1; j < 6; j++) {
 					System.out.println("i=" + i +", j= " + j);
@@ -24,11 +24,11 @@ public class Ex08 {
 				
 			k1++;				
 			}
+			//
 			
-			
-//			// ±¸±¸´Ü
+//			// êµ¬êµ¬ë‹¨
 //			for (int i = 2; i < 10; i++) {
-//				System.out.println(i + "´Ü");
+//				System.out.println(i + "ë‹¨");
 //				for (int j = 1; j < 10; j++) {
 //					System.out.println(i + "*" + j + "=" + (i*j));
 //				}
@@ -36,7 +36,7 @@ public class Ex08 {
 			
 			int k2 = 2;
 			while (k2<10) {
-				System.out.println(k2 + "´Ü");
+				System.out.println(k2 + "ë‹¨");
 				int g2 =1;
 				while (g2<10) {
 					System.out.println(k2 + "*" + g2 + "= " +(k2*g2));
