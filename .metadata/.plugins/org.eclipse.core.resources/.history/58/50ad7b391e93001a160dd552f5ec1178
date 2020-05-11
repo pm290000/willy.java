@@ -158,17 +158,7 @@ public class Ex07 {
 		
 		System.out.println("짝수의 합 : " + even);
 		System.out.println("홀수의 합 : " + odd);
-
 		// 7!(7 * 6 * 5 * 4 * 3 * 2 * 1)
 
-		sum = 1 ;
-		int k14 = 7;
-		
-		while (k14>0) {
-			
-			sum = sum * k14 ;
-			k14--;
-		}
-		System.out.println("7 ! : " + sum);
 	}
-	}
+}

@@ -142,33 +142,8 @@ public class Ex07 {
 		System.out.println("짝수의 합 : " + even);
 
 		// 0-10 홀수, 짝수의 합계
-		odd = 0 ;
-		even = 0 ;
-		int k13 = 0;
-		while (k13<11) {
-			
-			if (k13 % 2 == 0) {
-				even = even + k13 ;
-			} else {
-				odd = odd + k13 ;
-			}
-			
-			k13++;
-		}
-		
-		System.out.println("짝수의 합 : " + even);
-		System.out.println("홀수의 합 : " + odd);
 
 		// 7!(7 * 6 * 5 * 4 * 3 * 2 * 1)
 
-		sum = 1 ;
-		int k14 = 7;
-		
-		while (k14>0) {
-			
-			sum = sum * k14 ;
-			k14--;
-		}
-		System.out.println("7 ! : " + sum);
 	}
-	}
+}
