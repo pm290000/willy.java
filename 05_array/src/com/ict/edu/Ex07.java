@@ -14,7 +14,7 @@ public class Ex07 {
 		// 2. 생성 : 이름 = new 자료형[1차원 배열의 갯수][1차원 배열 안의 존재하는 배열의 수]
 		su = new int[2][3];
 
-		// 3. 데이터 저장
+		// 3. 데이터 저장(고정길이에서만 가능)
 		su[0][0] = 10;
 		su[0][1] = 20;
 		su[0][2] = 30;
@@ -38,4 +38,12 @@ public class Ex07 {
 		}
 		}
 	}
+//git 올릴때 명령어
 
+//git add . 
+//git commit -m "array"
+//git push origin +master
+
+//=====================
+//git 내릴 때 명령어
+//git pull origin master

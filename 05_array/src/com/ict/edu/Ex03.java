@@ -38,10 +38,7 @@ public class Ex03 {
 		for (int k : su2) {
 			System.out.print(k + " ");
 			
-			
-			System.out.println("====================");
-			
-			
 		}
+		System.out.println("====================");
 	}
 }
