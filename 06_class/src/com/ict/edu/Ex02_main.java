@@ -1,5 +1,7 @@
 package com.ict.edu;
 
+import java.util.Random;
+
 public class Ex02_main {
 	public static void main(String[] args) {
 		// static 멤버필드 호출
@@ -23,6 +25,43 @@ public class Ex02_main {
 		System.out.println(Ex02.eng);
 		System.out.println(Ex02.com);
 		System.out.println(test);//주소 출력  참조변수 test 출력~
+		
+		System.out.println("==============");
+		// API를 이용해서 static 매소드와 인스턴스를 호출해
+		// API에서 제공하는 Random클래스의
+		// nextInt()와 nextInt(int bound),nextDouble()을 사용하는 예이다.
+		
+		// nextInt()와 nextInt(int bound),nextDouble()은 static이 아니므로
+		// 클래스를 객체로 만들어서 사용해야 된다.
+		
+		// 1. 클래스를 객체로 만드는 방법
+		//	  클래스	참조변수  =  new   생성자
+		Random ran = new Random();
+		// nextInt() : int 범위 안에서 무작위로 정수 추출 한다.
+		int res = ran.nextInt();
+		System.out.println(res);
+		System.out.println("==============");
+		
+		res = ran.nextInt(6); // 0~5 까지
+		System.out.println(res);
+		System.out.println("=================");
+		
+		// 정해지지 않은 0.0~1.0미만의 실수 (소수점 한자리는 아니다)
+		double res2 = ran.nextDouble();
+		System.out.println(res2);
+		//0.34053765974474937
+		//0.9370768065965999
+		
+		//res2 를 0~5까지의 정수로 표현하자(권장사항)
+		System.out.println((int)(res2*6));
+		
+		// API에서 제공하는 static 메소드 사용하기
+		// Math 클래스의 메소드들은 static이므로 객체 생성없이 사용가능
+		// 클래스이름.멤버필드, 클래스이름.멤버메소드로 사용
+		System.out.println(Math.random()); //0.0이상 ~ 1.0 미만
+		
+		//원하는 정수까지으로 정해지지않은 수 저장
+		System.out.println((int)(Math.random()*6));
 		
 	}
 }
