@@ -1,4 +1,4 @@
-package class02;
+package com.ict.edu1;
 
 //자식클래스
 public class Ex01_sub extends Ex01_sup {
@@ -6,6 +6,9 @@ public class Ex01_sub extends Ex01_sup {
 	int age = 13;
 
 	public Ex01_sub() {
+		super(); //생략되어있다.
+		
+		
 		System.out.println("자식클래스 생성자 : " + this);
 	}
 

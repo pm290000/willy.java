@@ -1,4 +1,4 @@
-package class02;
+package com.ict.edu1;
 
 import java.util.Random;
 

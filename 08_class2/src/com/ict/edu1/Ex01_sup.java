@@ -1,4 +1,4 @@
-package class02;
+package com.ict.edu1;
 
 // 부모 클래스
 public class Ex01_sup {
